@@ -1,51 +1,55 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\TestTask\\TruckReport\\TruckReportServer\\TruckReportServer.csproj": {}
+    "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportServer\\TruckReportServer.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\TestTask\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj": {
+    "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\Projects\\TestTask\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj",
+        "projectUniqueName": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj",
         "projectName": "TruckReportLibF",
-        "projectPath": "E:\\Projects\\TestTask\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj"
+        "projectPath": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
-        "net45": {}
+        "net48": {}
       }
     },
-    "E:\\Projects\\TestTask\\TruckReport\\TruckReportServer\\TruckReportServer.csproj": {
+    "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportServer\\TruckReportServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\TestTask\\TruckReport\\TruckReportServer\\TruckReportServer.csproj",
+        "projectUniqueName": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportServer\\TruckReportServer.csproj",
         "projectName": "TruckReportServer",
-        "projectPath": "E:\\Projects\\TestTask\\TruckReport\\TruckReportServer\\TruckReportServer.csproj",
-        "packagesPath": "C:\\Users\\vkorenkov\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\TestTask\\TruckReport\\TruckReportServer\\obj\\",
+        "projectPath": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportServer\\TruckReportServer.csproj",
+        "packagesPath": "C:\\Users\\IAmHereByMistake\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vkorenkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IAmHereByMistake\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projects\\TestTask\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj": {
-                "projectPath": "E:\\Projects\\TestTask\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj"
+              "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj": {
+                "projectPath": "C:\\Users\\IAmHereByMistake\\Documents\\Stuff\\OldRepositories\\TruckReport\\TruckReportLibF\\TruckReportLibF.csproj"
               }
             }
           }
@@ -54,6 +58,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,10 +80,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
